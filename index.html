@@ -14,8 +14,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
-      <button type="button" class="btn btn-success">Success</button>
+      <h1>SheCodes Weather App</h1>
+      <br />
+      <br />
+      <form id="search-form">
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              autocomplete="off"
+              autofocus="on"
+              placeholder="Enter a city..."
+              id="city-input"
+            />
+            <button type="submit" class="btn btn-light">Search</button>
+          </div>
+        </div>
+      </form>
+      <div class="currentWeather">
+ <div class="row">
+        <div class="col-md-4">
+          <ul>
+          <li id="current-city">London</li>
+          <li class="dayTime" id="current-time">Monday 16:31</li>
+          <li class="weatherDescription">Cloudy</li>
+          <br />
+          <li class="temperature">19<span class="tempUnits">˚C</span></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul>
+            <li id="precipitation">Precipitation 0%</li>
+          <li id="humidity">Humidity 91%</li>
+          <li id="wind-speed">Wind 6kph</li>
+        </div>
+      </div>
+      <br />
       <script src="src/index.js"></script>
     </div>
   </body>
