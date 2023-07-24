@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="container">
+      <div class="weatherApp">
       <h1>SheCodes Weather App</h1>
       <br />
       <br />
@@ -39,7 +40,8 @@
           <li class="dayTime" id="current-time">Monday 16:31</li>
           <li class="weatherDescription">Cloudy</li>
           <br />
-          <li class="temperature">19<span class="tempUnits">˚C</span></li>
+          <div class="temperatureContainer">
+          <li class="temperature">19<span class="tempUnits">˚C</span></li></div>
           </ul>
         </div>
         <div class="col-md-2">
@@ -50,7 +52,12 @@
         </div>
       </div>
       <br />
+      <footer>
+      <small>
+        <a href="https://melodious-starship-dbe150.netlify.app/" target="_blank">Open-source code by Kerry White</a></small>
+        </footer>
       <script src="src/index.js"></script>
+   </div>
     </div>
   </body>
 </html>
