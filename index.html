@@ -10,6 +10,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -38,15 +39,15 @@
  <div class="row">
         <div class="col-md-4">
           <ul>
-          <li id="current-city">London</li>
+          <li id="current-city"></li>
           <li class="dayTime" id="current-time">Monday 16:31</li>
-          <li class="weatherDescription">Cloudy</li>
+          <li id="weather-description"></li>
           <br />
           <li>
 <div class="d-flex weather-temperature">
   <img src="https://cdn-icons-png.flaticon.com/128/899/899740.png" alt="Clear" id="icon" />
   <div>
-    <strong id="temperature">19</strong
+    <strong id="temperature"></strong
     ><span class="units">°C | <a href="#">°F</a></span>
   </div>
 </div>
@@ -55,9 +56,8 @@
         </div>
         <div class="col-md-2">
           <ul>
-            <li id="precipitation">Precipitation 0%</li>
-          <li id="humidity">Humidity 91%</li>
-          <li id="wind-speed">Wind 6kph</li>
+          <li>Humidity <span id="humidity"></span>%</li>
+          <li>Wind <span id="wind-speed"></span>  kph</li>
           </ul>
         </div>
       </div>
