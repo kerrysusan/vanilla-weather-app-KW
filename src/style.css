@@ -52,7 +52,9 @@ li:first-letter {
 .col-md-2 {
   width: max-content;
   text-align: right;
+  padding: 30px;
 }
 .col-md-4 {
   width: max-content;
+  padding: 30px;
 }
