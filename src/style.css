@@ -31,6 +31,16 @@ li:first-letter {
   margin-right: 10px;
 }
 
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .weatherAppWrapper {
   max-width: 600px;
   margin: 20px auto;
