@@ -68,3 +68,18 @@ li:first-letter {
   width: max-content;
   padding: 30px;
 }
+
+.weather-forecast {
+  margin-top: 15px;
+}
+.weather-forecast-day {
+  font-size: 15px;
+  color: black;
+  opacity: 0.6;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temp-min {
+  opacity: 0.4;
+}
